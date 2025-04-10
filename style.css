@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+
 }
 
 body{
@@ -19,4 +21,25 @@ body{
     justify-content: center;
     list-style: none;
     font-size: x-large;
+}
+
+#Main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#txt{
+    height: 5vh;
+    width: 20vw;
+    font-size: 3vh;
+    border: none;
+   
+}
+
+button{
+    height: 5vh;
+    margin-left: 10px;
 }
