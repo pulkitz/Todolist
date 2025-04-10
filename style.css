@@ -12,3 +12,11 @@ body{
     height: 10vh;
     background-color: #0081a7;
 }
+
+#buff{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    list-style: none;
+    font-size: x-large;
+}
