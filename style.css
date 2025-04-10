@@ -3,3 +3,8 @@
     margin: 0;
     scroll-behavior: smooth;
 }
+
+#hotbar{
+    height: 10vh;
+    background-color: color-mix(in hsl shorter hue, red 50%, blue 50%);
+}
