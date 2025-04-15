@@ -26,13 +26,17 @@
     <script>
         
         function add() {
+            
             var input = document.getElementById("txt");
             var Task = document.getElementById("Tasklist");
             var txt = input.value.trim();
+            if(txt !== ""){
             var list = document.createElement("li");
             list.textContent = txt;
             Task.appendChild(list);
-            input.value = "";
+            input.value = "";} else {
+                alert("Enter a Task");
+            }
         }
     </script>
 </body>

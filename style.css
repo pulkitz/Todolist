@@ -24,10 +24,13 @@ body{
 }
 
 #Main{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: grid;
+    margin-top: 10vh;
+    grid-template-columns: 200px 100px ;
+    grid-template-rows: 100px;
     justify-content: center;
+    gap: 5vw;
+    row-gap: 1vh;
     height: 100vh;
 }
 
@@ -45,4 +48,8 @@ body{
 button{
     height: 5vh;
     margin-left: 10px;
+}
+
+#Tasklist{
+  color: antiquewhite;  
 }
