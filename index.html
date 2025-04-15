@@ -19,7 +19,21 @@
     </div>
     <div id="Main">
         <input type="text" id="txt" placeholder="Enter your Task"></input>
-        <button onclick="add()" id="add">Add Task</button>
+        <button type = "submit" onclick = "add()" id="add">Add Task</button>
+        <ul id="Tasklist"></ul>
     </div>
+
+    <script>
+        
+        function add() {
+            var input = document.getElementById("txt");
+            var Task = document.getElementById("Tasklist");
+            var txt = input.value.trim();
+            var list = document.createElement("li");
+            list.textContent = txt;
+            Task.appendChild(list);
+            input.value = "";
+        }
+    </script>
 </body>
 </html>

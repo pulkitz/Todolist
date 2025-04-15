@@ -36,7 +36,10 @@ body{
     width: 20vw;
     font-size: 3vh;
     border: none;
-   
+}
+
+#txt:focus{
+    outline: none;
 }
 
 button{
