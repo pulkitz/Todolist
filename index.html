@@ -22,6 +22,7 @@
         <button type = "submit" onclick = "add()" id="add">Add Task</button>
         <ul id="Tasklist"></ul>
     </div>
+    <div id="cancel"><button type="reset" id="re" onclick="ers()">Clear</button></div>
 
     <script>
         
@@ -38,6 +39,16 @@
                 alert("Enter a Task");
             }
         }
+
+        function ers() {
+            var Task = document.getElementById("Tasklist");
+            while (Task.firstChild) {
+                Task.removeChild(Task.firstChild);
+            }
+        }
+
+        var Task = document.getElementById("Tasklist");
+        var list = Task.children
     </script>
 </body>
 </html>

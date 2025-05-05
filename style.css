@@ -31,7 +31,7 @@ body{
     justify-content: center;
     gap: 5vw;
     row-gap: 1vh;
-    height: 100vh;
+    
 }
 
 #txt{
@@ -45,7 +45,7 @@ body{
     outline: none;
 }
 
-button{
+#add{
     height: 5vh;
     margin-left: 10px;
 }
@@ -53,3 +53,9 @@ button{
 #Tasklist{
   color: antiquewhite;  
 }
+
+#cancel{
+    display: flex;
+    justify-content: center;
+}
+
